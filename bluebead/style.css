@@ -663,14 +663,16 @@ body {
 /* Homepage Carousel Slider */
       #carousel {
         width:960px;
-        height:320px;
+        height:350px;
         position:relative;
         clear:both;
         overflow:hidden;
+		
       }
       #carousel img {
         visibility:hidden; /* hide images until carousel can handle them */
         cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+		padding-top:50px;
       }
       .split-left {
         width:450px;
